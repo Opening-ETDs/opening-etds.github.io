@@ -8,22 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-## Locations of key files/directories
+## ABSTRACT
 
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
-* Single pages: _pages/
-* Collections of pages are .md or .html files in:
-  * _publications/
-  * _portfolio/
-  * _posts/
-  * _teaching/
-  * _talks/
-* Footer: _includes/footer.html
-* Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
+Virginia Tech University Libraries, in collaboration with Virginia Tech Computer Science and Old Dominion University Computer Science, will bring computational access to book-length documents, through a research and piloting effort employing Electronic Theses and Dissertations (ETDs). The library and archives fields lack research on extracting and analyzing segments of long documents (chapters, reference lists, tables, figures), as well as methods for summarizing individual chapters of longer texts to enable findability. The project brings cutting-edge computer science and machine learning technologies to advance discovery, use, and potential for reuse of the knowledge hidden in the text of books and book-length documents. By focusing on libraries' ETD collections, the research will enhance libraries' ETD programs, devising effective and efficient methods for opening the knowledge currently hidden in the rich body of graduate research and scholarship.
 
-## Tips and hints
+The project is divided broadly into three research areas. 
+* RA 1: Document analysis and extraction
+* RA 2: Adding value
+* RA 3: User services
+
+### Research Area 1
 
 * Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
 * Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version Github built with Jekyll. 
