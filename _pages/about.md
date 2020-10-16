@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "pening Books and the National Corpus of Graduate Research"
+title: "Opening Books and the National Corpus of Graduate Research"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
