@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : ""
+  name             : 
   avatar           : "VT_logo.png"
-  bio              : "Assistant Dean and Director of IT, University Libraries, Virginia Tech"
-  location         : "Blacksburg, Va."
+  bio              : "Virginia Polytechnic Institute and State University"
+  location         : "Blacksburg, VA 24061"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=L-R5NXwAAAAJ&hl=en"
+  googlescholar    : 
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/William_Ingram7"
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "waingram"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/waingram/"
-  orcid            : "http://orcid.org/0000-0002-8307-8844"
+  linkedin         : 
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "sudobear"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
