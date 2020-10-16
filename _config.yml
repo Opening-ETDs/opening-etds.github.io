@@ -229,6 +229,14 @@ defaults:
       path: ""
       type: team
     values:
+      layout: talks
+      author_profile: false
+      share: true
+  # _projects
+  - scope:
+      path: ""
+      type: project
+    values:
       layout: talk
       author_profile: false
       share: true
