@@ -78,43 +78,43 @@ analytics:
     tracking_id          :
 
 
-# # Site Author
-# author:
-#   name             : ""
-#   avatar           : "ingram_photo_800px.png"
-#   bio              : "Assistant Dean and Director of IT, University Libraries, Virginia Tech"
-#   location         : "Blacksburg, Va."
-#   employer         :
-#   pubmed           : 
-#   googlescholar    : "https://scholar.google.com/citations?user=L-R5NXwAAAAJ&hl=en"
-#   email            :
-#   researchgate     :  # example: "https://www.researchgate.net/profile/William_Ingram7"
-#   uri              :
-#   bitbucket        :
-#   codepen          :
-#   dribbble         :
-#   flickr           :
-#   facebook         :
-#   foursquare       :
-#   github           : "waingram"
-#   google_plus      :
-#   keybase          :
-#   instagram        :
-#   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-#   lastfm           :
-#   linkedin         : "https://www.linkedin.com/in/waingram/"
-#   orcid            : "http://orcid.org/0000-0002-8307-8844"
-#   pinterest        :
-#   soundcloud       :
-#   stackoverflow    : # http://stackoverflow.com/users/123456/username
-#   steam            :
-#   tumblr           :
-#   twitter          : "sudobear"
-#   vine             :
-#   weibo            :
-#   xing             :
-#   youtube          :
-#   wikipedia        :
+# Site Author
+author:
+  name             : ""
+  avatar           : "ingram_photo_800px.png"
+  bio              : "Assistant Dean and Director of IT, University Libraries, Virginia Tech"
+  location         : "Blacksburg, Va."
+  employer         :
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=L-R5NXwAAAAJ&hl=en"
+  email            :
+  researchgate     :  # example: "https://www.researchgate.net/profile/William_Ingram7"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "waingram"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         : "https://www.linkedin.com/in/waingram/"
+  orcid            : "http://orcid.org/0000-0002-8307-8844"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : "sudobear"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
 
 
 # Reading Files
@@ -122,6 +122,7 @@ include:
   - .htaccess
   - _pages
   - files
+  
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
