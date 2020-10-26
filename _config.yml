@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Opening Books and the National Corpus of Graduate Research"
+title                    : "Opening ETDs"
 title_separator          : "—"
 name                     : &name "Opening ETDs"
 description              : &description "IMLS grant LG-37-19-0078-19"
 url                      : https://opening-etds.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://opening-etds.github.io"
+repository               : "Opening-ETDs/opening-etds.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,9 +81,9 @@ analytics:
 # Site Author
 author:
   name             : 
-  avatar           : "VT_logo.png"
-  bio              : "Virginia Polytechnic Institute and State University"
-  location         : "Blacksburg, VA 24061"
+  avatar           : "etd-logo.png"
+  bio              : 
+  location         : 
   employer         :
   pubmed           : 
   googlescholar    : 
