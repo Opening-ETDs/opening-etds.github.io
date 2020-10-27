@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-## ABSTRACT
-
 Virginia Tech University Libraries, in collaboration with Virginia Tech Computer Science and Old Dominion University Computer Science, will bring computational access to book-length documents, through a research and piloting effort employing Electronic Theses and Dissertations (ETDs). The library and archives fields lack research on extracting and analyzing segments of long documents (chapters, reference lists, tables, figures), as well as methods for summarizing individual chapters of longer texts to enable findability. The project brings cutting-edge computer science and machine learning technologies to advance discovery, use, and potential for reuse of the knowledge hidden in the text of books and book-length documents. By focusing on libraries' ETD collections, the research will enhance libraries' ETD programs, devising effective and efficient methods for opening the knowledge currently hidden in the rich body of graduate research and scholarship.
 
 The project is divided broadly into three research areas. 
@@ -38,3 +36,6 @@ The tasks that will help us accomplish the goals are
 ### Research Area 3
 Research Area 3 attempts to answer the research question "How can our ETD digital library most effectively serve stakeholders?" We primarily focus on investigating new ways to interact with ETD collections,and study which best support the needs of the user community.
 
+## Funding
+<img src="/images/imls_logo_2c.jpg">
+This project was made possible in part by the Institute of Museum and Library Services [LG-37-19-0078-19](https://www.imls.gov/grants/awarded/lg-37-19-0078-19). 

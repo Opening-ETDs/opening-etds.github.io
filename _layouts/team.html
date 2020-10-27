@@ -1,0 +1,103 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+    {% include sidebar.html %}
+
+    <article class="page" itemscope itemtype="http://schema.org/Person">    
+
+        {% if page.name %}<meta itemprop="headline" content="{{ page.name | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.bio %}<meta itemprop="description" content="{{ page.bio | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+        {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+        <div class="page__inner-wrap">
+
+        <section class="page__content" itemprop="text">
+
+            <div class="entry-content">
+                <section class="bio row">
+                    <div class="row">
+                        <div class="col">
+                            <header class="person-header">
+                                <h1>
+                                    {% if page.name %}<h1 class="page__title" itemprop="headline">{{ page.name | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+                                </h1>
+                                <p class="person-role">
+                                    {% if page.role %}{{ page.role | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
+                                </p>
+                            </header>
+                            <div class="bio">
+                                {% if page.bio %}<div>{{ page.bio | markdownify | remove: "<p>" | remove: "</p>" }}</div>{% endif %}
+                                <div></div>
+                                <div>
+                                    {% if page.research %}<div>{{ page.research | markdownify | remove: "<p>" | remove: "</p>" }}</div>{% endif %}
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="col">
+                            <figure>
+                                {% if page.img %}
+                                <img width="400" height="400"
+                                    src="/images/{{page.img}}">
+                                {% endif %}
+                            </figure>
+                            <div>
+                                <a href="https://www.linkedin.com/in/waingram" target="_blank">Web site</a><br>
+                                <a href="mailto:waingram@vt.edu" class="button alt">
+                                    <i class="fa fa-fw fa-envelope"></i> Email
+                                </a>
+    
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        </section>
+
+        <footer class="page__meta">
+            {% if site.data.ui-text[site.locale].meta_label %}
+            <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+            {% endif %}
+            {% include page__taxonomy.html %}
+        </footer>
+
+        {% if page.share %}{% include social-share.html %}{% endif %}
+
+        {% include post_pagination.html %}
+        </div>
+
+        {% if site.comments.provider and page.comments %}
+        {% include comments.html %}
+        {% endif %}
+    </article>
+
+  {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
+  {% if page.id and page.related and site.related_posts.size > 0 %}
+    <div class="page__related">
+      {% if site.data.ui-text[site.locale].related_label %}
+        <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
+      {% endif %}
+      <div class="grid__wrapper">
+        {% for post in site.related_posts limit:4 %}
+          {% include archive-single.html type="grid" %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>

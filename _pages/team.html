@@ -1,12 +1,54 @@
 ---
 layout: archive
-title: "Team"
+title: "Research Team"
 permalink: /team/
-author_profile: false
+author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% assign number_printed = 0 %}
+
+{% assign ordered_team = site.team | sort:"order_number" %}
+{% for member in ordered_team %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <h2><a href="{{ base_path }}{{ member.url }}" rel="permalink">{{ member.name }}</a></h2>
+  <div class="row">
+  <div class="col-sm-4">
+      {% if member.img %}
+      <img class="img-thumbnail float-left img-fluid" src="/images/{{member.img}}">
+      {% endif %}
+  </div>
+  <div class="col-sm-8">
+    <ul class="list-unstyled">
+      <li>
+        <em>{{ member.role }}</em>
+      </li>
+      <li>{{ member.title }}</li>
+    </ul>
+    
+
+  </div>
+  </div>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
 {% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
