@@ -1,5 +1,5 @@
 ---
-permalink: /project/project-muntabir
+permalink: /project/
 author_profile: true
 redirect_from: 
   - /project
