@@ -11,5 +11,5 @@ Support was made in part by the Institute of Museum and Library Services for gra
 </p>
 <p>
 <img src='/images/proquest.jpeg' width="300px" height="300px"><br>
-We would like to thank you ProQuest for supporting a part of this project.
+This project was supported in part by ProQuest, which provided access to TDM Studio. The university subscribes to the dataset, ProQuest Dissertations & Theses (PQDT).
 </p>
