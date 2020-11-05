@@ -237,7 +237,7 @@ defaults:
       path: ""
       type: project
     values:
-      layout: project
+      layout: teaching
       author_profile: false
       share: true
 # Sass/SCSS

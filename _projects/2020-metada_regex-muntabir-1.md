@@ -2,7 +2,7 @@
 title: "Metadata Extraction from Scanned ETDs"
 collection: projects
 type: "Undergraduate course"
-permalink: /projects/metadata_regex-muntabir
+permalink: /projects/2020-metadata_regex-muntabir-1
 venue: "Old Dominion University, Computer Science"
 date: 2020-08-01
 location: "Norfolk, USA"
