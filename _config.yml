@@ -176,7 +176,7 @@ kramdown:
 
 # Collections
 collections:
-  projects:
+  project:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -232,13 +232,13 @@ defaults:
       layout: team
       author_profile: true
       share: true
-  # _projects
+  # _project
   - scope:
       path: ""
       type: project
     values:
-      layout: teaching
-      author_profile: false
+      layout: single
+      author_profile: True
       share: true
 # Sass/SCSS
 sass:
