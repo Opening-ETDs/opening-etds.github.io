@@ -176,7 +176,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  project:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -237,7 +237,7 @@ defaults:
       path: ""
       type: project
     values:
-      layout: talk
+      layout: project
       author_profile: false
       share: true
 # Sass/SCSS
