@@ -1,6 +1,6 @@
 ---
-permalink: /project/
-author_profile: false
+permalink: /project/project-muntabir
+author_profile: true
 redirect_from: 
   - /project
 ---
