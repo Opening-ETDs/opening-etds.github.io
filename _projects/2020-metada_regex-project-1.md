@@ -1,8 +1,8 @@
 ---
 title: "Metadata Extraction from Scanned ETDs"
-collection: project
+collection: projects
 type: "Undergraduate course"
-permalink: /project/2020-metadata_regex-project-1
+permalink: /projects/2020-metadata_regex-project-1
 venue: "Old Dominion University, Computer Science"
 date: 2020-08-01
 location: "Norfolk, USA"
