@@ -185,7 +185,12 @@ collections:
   team:
     output: true
     permalink: /:collection/:path/
-
+  resources:
+    output: true
+    permalink: /:collection/:path/
+  acknowledgement:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -240,6 +245,21 @@ defaults:
       layout: single
       author_profile: True
       share: true
+  # _acknowledgement
+  - scope:
+      path: ""
+      type: acknowledgement
+    values:
+      layout: single
+      author_profile: true
+  # _resources
+  - scope:
+      path: ""
+      type: resources
+    values:
+      layout: single
+      author_profile: true
+            
 # Sass/SCSS
 sass:
   sass_dir: _sass
