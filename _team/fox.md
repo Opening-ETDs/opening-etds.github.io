@@ -3,7 +3,7 @@ order_number: 1
 name: "Dr. Edward A. Fox"
 role: "Co-PI"
 title: "Professor, Computer Science, Virginia Tech"
-bio: "My research ..."
+bio: "My research interests include ETDs, digital libraries, information retrieval, NLP, machine learning"
 img: "fox.jpg"
 collection: team
 ---

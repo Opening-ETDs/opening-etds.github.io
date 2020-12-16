@@ -3,7 +3,7 @@ order_number: 5
 name: "Muntabir Choudhury"
 role: "Gradudate Research Assistant"
 title: "Ph.D. Student, Computer Science, Old Dominion University"
-bio: "My research ..."
+bio: "My research focus includes Mining Scanned Electronic Theses and Dissertations"
 img: "muntabir.png"
 collection: team
 ---
