@@ -67,6 +67,7 @@ by **Virginia Tech Team**
 Born-digital ETDs are documents that unlike their scanned counterparts originated in digital form. The team at Virginia Tech is focussing maninly on such documents and creating various servics that help in exploring them. Some of the ongoing and past projects are mentioned as follows
 
 
+
 Increasing Accessibility of Electronic Theses and Dissertations (ETDs) Through Chapter-level Classification
 ======
 by **Palakh Mignonne Jude**
@@ -83,4 +84,12 @@ Portable Document Format (PDF) is one of the most popular document formats. Howe
 
 
 Click <a href="https://vtechworks.lib.vt.edu/bitstream/handle/10919/100113/Kahu_SY_T_2020.pdf?sequence=1&isAllowed=y">here</a> to read the entire thesis.
+
+
+Automatic Subject Classification for Arabic ETDs
+======
+by **Eman Abdelrahman**
+
+This research aims to develop a classification method for Arabic ETDs. The corpus is obtained from the AskZad Digital Library. The data spans across 16 subject categories.  
+
 
