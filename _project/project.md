@@ -56,3 +56,21 @@ Currently, we are experimenting Clova OCR. It's an open source tool and it utili
 <tr><td style="text-align: center;"><a href="/images/clova-gui.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="833" data-original-width="949" height="560" src="/images/clova-gui.png" width="640" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;"><span style="font-size: 12.8px;">Figure 4: Clova OCR result on the cover page of scanned ETDs</span></td></tr>
 </tbody></table>
+
+Exploring born-digital ETDs
+======
+by **Virginia Tech Team**
+
+Born-digital ETDs are documents that unlike their scanned counterparts originated in digital form. The team at Virginia Tech is focussing maninly on such documents and creating various servics that help in exploring them. Some of the ongoing and past projects are mentioned as follows
+
+
+Increasing Accessibility of Electronic Theses and Dissertations (ETDs) Through Chapter-level Classification
+======
+by **Palakh Mignonne Jude**
+
+Figure Extraction from Scanned Electronic Theses and Dissertations
+======
+by **Sampanna Kahu**
+
+
+
