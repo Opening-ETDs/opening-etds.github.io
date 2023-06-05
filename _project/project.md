@@ -1,4 +1,4 @@
----
+<!-- ---
 permalink: /project/
 author_profile: true
 redirect_from: 
@@ -92,4 +92,4 @@ by **Eman Abdelrahman**
 
 This research aims to develop a classification method for Arabic ETDs. The corpus is obtained from the AskZad Digital Library. The data spans across 16 subject categories.  
 
-
+ -->
