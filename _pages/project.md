@@ -1,4 +1,4 @@
----
+<!-- ---
 permalink: /project/
 author_profile: true
 redirect_from: 
@@ -55,4 +55,4 @@ Currently, we are experimenting Clova OCR. It's an open source tool and it utili
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><a href="/images/clova-gui.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="833" data-original-width="949" height="560" src="/images/clova-gui.png" width="640" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;"><span style="font-size: 12.8px;">Figure 4: Clova OCR result on the cover page of scanned ETDs</span></td></tr>
-</tbody></table>
+</tbody></table> -->
