@@ -7,6 +7,6 @@ bio: "My research interests include ETDs, digital libraries, information retriev
 img: "fox.jpg"
 collection: team
 website: "https://fox.cs.vt.edu/foxinfo.html"
-email: "mailto:fox@vt.edu
+email: "mailto:fox@vt.edu"
 ---
 
